@@ -1,0 +1,67 @@
+:root{
+    --primary: #52d3d8;
+    --midblue: #3887be;
+    --darkblue: #38419d;
+    --verydarkblue: #200e3a;
+    --font:'Poppins', sans-serif;
+}
+
+/* font */
+.font-title{
+    font-family: var(--font);
+    font-weight: 600;
+}
+.font-text{
+    font-family: var(--font);
+    font-weight: 400;
+}
+.bg-color{
+background: linear-gradient(to right,#38419d,#3887be,#52d3d8);
+background-repeat: no-repeat;
+}
+.text-midblue{
+    color: var(--midblue);
+}
+.bg-darkblue{
+    background-color: var(--darkblue);
+}
+.bg-midblue{
+    background-color: var(--midblue);
+}
+.btn_style{
+    color: white;
+    font-family: var(--font);
+    font-weight: 600;
+    border: 1px solid var(--midblue);
+}
+.btn_style:hover{
+    color: white;
+    font-family: var(--font);
+    font-weight: 600;
+    background-color: var(--darkblue);
+    border: 1px solid var(--darkblue);
+}
+.btn_style2{
+    color: white;
+    font-family: var(--font);
+    font-weight: 400;
+    background-color: var(--darkblue);
+    border: 1px solid var(--darkblue);
+}
+.btn_style2:hover{
+    color: white;
+    background-color: var(--verydarkblue);
+    border: 1px solid var(--verydarkblue);
+}
+.text-left{
+    text-align: left;
+}
+
+label:hover{
+    color: var(--verydarkblue);
+}
+
+
+.h-100{
+    background-size: 2000px 3000px;
+}

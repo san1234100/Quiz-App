@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-color h-100">
+<!-- home -->
+<section class="text-center">
+       <h1 class="text-white font-title mt-5" >Quiz App</h1>
+       <div class="row ms-auto me-auto text-center text-white">
+        <h4 class="font-title my-5">Top Categories</h4>
+        <div class="col-7 col-md-2 ms-auto me-auto mb-5">
+            <div class="card">        
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" class="mt-2 ms-auto me-auto"><path fill="currentColor" d="m4 4l2 4h3L7 4h2l2 4h3l-2-4h2l2 4h3l-2-4h3q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20H4q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4"/></svg>
+                <div class="card-body">
+                    <strong class="font-title">Movie Quiz</strong>
+                </div>
+                <div class="card-footer">
+                   <a href="./moviequiz.html" class="btn bg-midblue btn_style">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-7 col-md-2 ms-auto me-auto mb-5">
+            <div class="card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" class="ms-auto me-auto mt-2"><path fill="currentColor" d="M10.5 17q1.05 0 1.775-.725T13 14.5V9h3V7h-4v5.5q-.325-.225-.7-.363T10.5 12q-1.05 0-1.775.725T8 14.5q0 1.05.725 1.775T10.5 17M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20z"/></svg>        
+                <div class="card-body">
+                    <strong class="font-title">Music Quiz</strong>
+                </div>
+                <div class="card-footer">
+                   <a href="#" class="btn bg-midblue btn_style">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+        <!-- width="80" height="80"  class="ms-auto me-auto mt-2" -->
+        <div class="col-7 col-md-2 ms-auto me-auto">
+            <div class="card">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"  class="ms-auto me-auto mt-2"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m11.105 18.79l-1 .992a4.159 4.159 0 0 1-6.038-5.715l.157-.166L12.506 5.5l1.5 1.5l3.45-3.391a2.08 2.08 0 0 1 3.057 2.815l-.116.126L17.006 10l1.5 1.5l-3.668 3.617M10.5 7.5l6 6"/><path d="M11 18a3 3 0 1 0 6 0a3 3 0 1 0-6 0"/></g></svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 64 64" class="ms-auto me-auto mt-2"><path fill="currentColor" d="m48.279 42.588l1.252 1.254l-.947.949l-1.548-1.547a8.93 8.93 0 0 0-1.088.811l12.864 12.863c.301-.348.572-.709.811-1.088l-1.549-1.547l.951-.949l1.254 1.254c1.443-3.336.809-7.355-1.918-10.082s-6.746-3.36-10.082-1.918m1.252 3.152l.95-.949l1.897 1.899l-.947.95zm2.848 2.848l.951-.947l1.896 1.897l-.947.948zm4.748 4.746l-1.9-1.898l.95-.949l1.897 1.898zm-12.939-7.242l1.549 1.549l-.95.947l-1.254-1.254c-1.443 3.337-.81 7.357 1.917 10.083s6.746 3.359 10.083 1.916L54.28 58.08l.947-.95l1.549 1.548c.378-.238.74-.51 1.088-.811L44.998 45.003c-.3.348-.57.71-.81 1.089m10.091 10.09l-.949.948l-1.898-1.897l.947-.949zm-2.847-2.848l-.95.949l-1.897-1.898l.947-.949zm-2.848-2.848l-.951.949l-1.896-1.897l.947-.95zm1.836-25.14c0-.506-.201-.992-.561-1.35l-2.066-2.068c-.01-.085-.027-.168-.028-.255a2.62 2.62 0 0 1 .769-1.906L62 6.299l-.109-.401a5.337 5.337 0 0 0-1.381-2.403a5.362 5.362 0 0 0-2.4-1.383L57.707 2l-13.47 13.471c-.572.572-1.394.801-2.188.713l-2.041-2.04a1.907 1.907 0 0 0-2.699 0L2.831 48.622c-.754.754-1.379 2.2-.077 4.808c.71 1.42 1.903 3.004 3.36 4.461c.964.963 4.328 4.109 7.145 4.109c1.07 0 1.745-.45 2.123-.828l34.477-34.477c.36-.358.561-.843.561-1.349m-5.17-8.863L57.008 4.725c.489.218.951.516 1.354.918c.402.402.698.864.916 1.353L47.521 18.754a4.021 4.021 0 0 0-1.049 1.833l-.033-.013l-3.011-3.012l-.013-.03a4.023 4.023 0 0 0 1.835-1.049M4.52 49.633l34.138-34.139l4.566 4.564L13.67 49.613c-.681.681-2.181 1.372-3.144 1.302c-1.395-.104-6.006-1.282-6.006-1.282m9.852 9.851s-1.178-4.61-1.281-6.009c-.071-.96.621-2.462 1.301-3.142c7.387-7.391 29.554-29.555 29.554-29.555l4.563 4.566z"/></svg>
+                <div class="card-body">
+                    <strong class="font-title">Sports Quiz</strong>
+                </div>
+                <div class="card-footer">
+                   <a href="#" class="btn bg-midblue btn_style">Start Quiz</a>
+                </div>
+            </div>
+        </div>
+       </div>
+</section>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

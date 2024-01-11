@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizApp</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-color">
+    <!-- home -->
+    <section class="text-center">
+      <h1 class="text-white font-title mt-5">Quiz App</h1>
+      <div class="text-center text-white">
+        <h4 class="font-title my-5">Movie Quiz</h4>
+      </div>
+      <div class="row text-white">
+        <div class="d-flex align-items-center justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" class="me-2"><path fill="currentColor" d="m4 4l2 4h3L7 4h2l2 4h3l-2-4h2l2 4h3l-2-4h3q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20H4q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4"/></svg>
+            <strong class="display-5 font-text">Questions,Let's Start</strong>
+        </div>
+        <!-- Question1 -->
+        <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">1. Who played the lead role in the blockbuster Tamil film "Mersal"?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="rajinikanth" name="Movie_q1" id="movieq1_opt1" required>
+                      <label class="form-check-label font-text" for="movieq1_opt1">
+                        Rajinikanth
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="vijay" name="Movie_q1" id="movieq1_opt2">
+                      <label class="form-check-label font-text" for="movieq1_opt2">
+                        Vijay
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="suriya" name="Movie_q1" id="movieq1_opt3">
+                      <label class="form-check-label font-text" for="movieq1_opt3">
+                        Suriya
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="kamalhaasan" name="Movie_q1" id="movieq1_opt4">
+                      <label class="form-check-label font-text" for="movieq1_opt4">
+                        Kamal Haasan
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+
+        </div>
+         <!-- Question2 -->
+         <div class="row mt-3">
+          <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+              <p class="font-text fs-5">2. Which Tamil film won the National Film Award for Best Feature Film in Tamil in 2019?</p>
+               <div class="row">
+                <div class="col-5 col-sm-3 ms-auto me-auto">
+                  <!-- option 1 -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" value="superdeluxe" name="Movie_q2" id="movieq2_opt1" required>
+                    <label class="form-check-label font-text " for="movieq2_opt1">
+                      Super Deluxe
+                    </label>
+                  </div>
+                  <!-- option 2 -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" value="kaithi" name="Movie_q2" id="movieq2_opt2">
+                    <label class="form-check-label font-text" for="movieq2_opt2">
+                      Kaithi
+                    </label>
+                  </div>
+                   <!-- option 3 -->
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" value="asuran" name="Movie_q2" id="movieq2_opt3">
+                    <label class="form-check-label font-text" for="movieq2_opt3">
+                      Asuran
+                    </label>
+                  </div>
+                   <!-- option 4 -->
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" value="vadachennai" name="Movie_q2" id="movieq2_opt4">
+                    <label class="form-check-label font-text" for="movieq2_opt4">
+                      Vada Chennai
+                    </label>
+                  </div>
+                </div>
+               </div>
+            </div>
+
+         </div>
+          <!-- Question3 -->
+          <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">3.  In the movie "Kabali," Rajinikanth plays the role of a</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="cop" name="Movie_q3" id="movieq3_opt1" required>
+                      <label class="form-check-label font-text " for="movieq3_opt1">
+                        Cop
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="gangster" name="Movie_q3" id="movieq3_opt2">
+                      <label class="form-check-label font-text" for="movieq3_opt2">
+                        Gangster
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="doctor" name="Movie_q3" id="movieq3_opt3">
+                      <label class="form-check-label font-text" for="movieq3_opt3">
+                        Doctor
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="businessman" name="Movie_q3" id="movieq3_opt4">
+                      <label class="form-check-label font-text" for="movieq3_opt4">
+                        Businessman
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+             <!-- Question4 -->
+          <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">4.Who directed the critically acclaimed film "Peranbu" starring Mammootty?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="vetrimaaran" name="Movie_q4" id="movieq4_opt1" required>
+                      <label class="form-check-label font-text " for="movieq4_opt1">
+                        Vetrimaaran
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="maniratnam" name="Movie_q4" id="movieq4_opt2">
+                      <label class="form-check-label font-text" for="movieq4_opt2">
+                        Mani Ratnam
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="ram" name="Movie_q4" id="movieq4_opt3">
+                      <label class="form-check-label font-text" for="movieq4_opt3">
+                        Ram
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="gauthammenon" name="Movie_q4" id="movieq4_opt4">
+                      <label class="form-check-label font-text" for="movieq4_opt4">
+                        Gautham Menon
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+            <!-- Question5-->
+           <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">5. Which film marked the directorial debut of actor Karthik Subbaraj?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="jigarthanda" name="Movie_q5" id="movieq5_opt1">
+                      <label class="form-check-label font-text " for="movieq5_opt1">
+                        Jigarthanda
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="iraivi" name="Movie_q5" id="movieq5_opt2">
+                      <label class="form-check-label font-text" for="movieq5_opt2">
+                        Iraivi
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="pizza" name="Movie_q5" id="movieq5_opt3">
+                      <label class="form-check-label font-text" for="movieq5_opt3">
+                        Pizza
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="mercury" name="Movie_q5" id="movieq5_opt4">
+                      <label class="form-check-label font-text" for="movieq5_opt4">
+                        Mercury
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+          <!-- Question6-->
+          <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">6.The film "Indian" (1996) features Kamal Haasan in a dual role. What are the names of the characters he portrayed?</p>
+                 <div class="row">
+                  <div class="col-6 col-sm-4 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="senapathyandchandrabose" name="Movie_q6" id="movieq6_opt1" required>
+                      <label class="form-check-label font-text " for="movieq6_opt1">
+                        Senapathy and Chandra Bose
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="rajaandappu" name="Movie_q6" id="movieq6_opt2">
+                      <label class="form-check-label font-text" for="movieq6_opt2">
+                        Raja and Appu
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="velunayakarandkittappa" name="Movie_q6" id="movieq6_opt3">
+                      <label class="form-check-label font-text" for="movieq6_opt3">
+                        Velu Nayakar and Kittappa
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="rajaandtheeporithirumugham" name="Movie_q6" id="movieq6_opt4">
+                      <label class="form-check-label font-text" for="movieq6_opt4">
+                        Raja and Theepori Thirumugham
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+            <!-- Question7-->
+          <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">7.Which actress played the female lead opposite Dhanush in the movie "Aadukalam"?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="trisha" name="Movie_q7" id="movieq7_opt1" required>
+                      <label class="form-check-label font-text " for="movieq7_opt1">
+                        Trisha
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="tamannaah" name="Movie_q7" id="movieq7_opt2">
+                      <label class="form-check-label font-text" for="movieq7_opt2">
+                        Tamannaah
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="aishwaryarajesh" name="Movie_q7" id="movieq7_opt3">
+                      <label class="form-check-label font-text" for="movieq7_opt3">
+                        Aishwarya Rajesh
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="taapseepannu" name="Movie_q7" id="movieq7_opt4">
+                      <label class="form-check-label font-text" for="movieq7_opt4">
+                        Taapsee Pannu
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+             <!-- Question8-->
+          <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">8.Which 2018 Tamil film is a sequel to the 2010 film "Enthiran" and features Rajinikanth in the lead role?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="kabali" name="Movie_q8" id="movieq8_opt1" required>
+                      <label class="form-check-label font-text " for="movieq8_opt1">
+                        Kabali
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="kaala" name="Movie_q8" id="movieq8_opt2">
+                      <label class="form-check-label font-text" for="movieq8_opt2">
+                        Kaala
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="2.0" name="Movie_q8" id="movieq8_opt3">
+                      <label class="form-check-label font-text" for="movieq8_opt3">
+                        2.0
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="darbar" name="Movie_q8" id="movieq8_opt4">
+                      <label class="form-check-label font-text" for="movieq8_opt4">
+                        Darbar
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+
+            <!-- Question9-->
+           <div class="row mt-3">
+            <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
+                <p class="font-text fs-5">9.In the movie "Vikram Vedha," who played the role of the ruthless gangster Vedha?</p>
+                 <div class="row">
+                  <div class="col-5 col-sm-3 ms-auto me-auto">
+                    <!-- option 1 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="vijaysethupathi" name="Movie_q9" id="movieq9_opt1" required>
+                      <label class="form-check-label font-text " for="movieq9_opt1">
+                        Vijay Sethupathi
+                      </label>
+                    </div>
+                    <!-- option 2 -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" value="rmadhavan" name="Movie_q9" id="movieq9_opt2">
+                      <label class="form-check-label font-text" for="movieq9_opt2">
+                        R. Madhavan
+                      </label>
+                    </div>
+                     <!-- option 3 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="fahadhfaasil" name="Movie_q9" id="movieq9_opt3">
+                      <label class="form-check-label font-text" for="movieq9_opt3">
+                        Fahadh Faasil
+                      </label>
+                    </div>
+                     <!-- option 4 -->
+                     <div class="form-check">
+                      <input class="form-check-input" type="radio" value="varalaxmisarathkumar" name="Movie_q9" id="movieq9_opt4">
+                      <label class="form-check-label font-text" for="movieq9_opt4">
+                        Varalaxmi Sarathkumar
+                      </label>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+  
+           </div>
+           
+            <!-- Question10-->
+            <div class="row mt-3 pb-5">
+              <div class="col-11 col-sm-9 ms-auto me-auto mt-3">
+                  <p class="font-text fs-5">10.Who directed the critically acclaimed film "96," starring Vijay Sethupathi and Trisha in the lead roles?</p>
+                   <div class="row">
+                    <div class="col-5 col-sm-3 ms-auto me-auto">
+                      <!-- option 1 -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" value="gauthamvasudevmenon" name="Movie_q10" id="movieq10_opt1" required>
+                        <label class="form-check-label font-text " for="movieq10_opt1">
+                          Gautham Vasudev Menon
+                        </label>
+                      </div>
+                      <!-- option 2 -->
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" value="maniratnam" name="Movie_q10" id="movieq10_opt2">
+                        <label class="form-check-label font-text" for="movieq10_opt2">
+                          Mani Ratnam
+                        </label>
+                      </div>
+                       <!-- option 3 -->
+                       <div class="form-check">
+                        <input class="form-check-input" type="radio" value="cpremkumar" name="Movie_q10" id="movieq10_opt3">
+                        <label class="form-check-label font-text" for="movieq10_opt3">
+                          C. Prem Kumar
+                        </label>
+                      </div>
+                       <!-- option 4 -->
+                       <div class="form-check">
+                        <input class="form-check-input" type="radio" value="vetrimaaran" name="Movie_q10" id="movieq10_opt4">
+                        <label class="form-check-label font-text" for="movieq10_opt4">
+                          Vetrimaaran
+                        </label>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+    
+             </div>
+             
+    <div class="pb-5">
+      <a href="./index.html" class="btn text-white fs-4 bg-success px-3">Exit</a>
+      <a href="./result.html"  class="btn text-white fs-4 btn_style2 px-3" id="moviequiz_submit">Submit</a>
+    </div>     
+     </div>
+     
+    </section>
+    <!-- script -->
+    <script src="./assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
