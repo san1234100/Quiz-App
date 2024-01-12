@@ -1,9 +1,8 @@
 
 //movie quizz
 
-let moviequizSubmit=document.getElementById('moviequiz_submit');
 
-moviequizSubmit.addEventListener('click',()=>{
+function moviequizSubmit(){
     let moviequizz=['Movie_q1','Movie_q2','Movie_q3','Movie_q4','Movie_q5','Movie_q6','Movie_q7','Movie_q8','Movie_q9','Movie_q10']
 let answers=['vijay','asuran','gangster','ram','pizza','senapathyandchandrabose','taapseepannu','2.0','vijaysethupathi','cpremkumar'];
     let count=0;
@@ -17,7 +16,7 @@ for (let i = 0; i < moviequizz.length; i++) {
 }
 let count1=count+'';
 localStorage.setItem('moviequiz',count1);
-})
+}
 function movieSelectedValue(val,ans) {
     // Get all radio buttons with the name "color"
     var radioButtons = document.getElementsByName(val);
