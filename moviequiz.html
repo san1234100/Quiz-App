@@ -33,7 +33,7 @@
             <strong class="display-5 font-text">Questions,Let's Start</strong>
         </div>
         <!-- Question1 -->
-        <div class="row mt-3">
+        <div class="row mt-3" id="q1">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">1. Who played the lead role in the blockbuster Tamil film "Mersal"?</p>
                  <div class="row">
@@ -72,7 +72,7 @@
 
         </div>
          <!-- Question2 -->
-         <div class="row mt-3">
+         <div class="row mt-3" id="q2">
           <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
               <p class="font-text fs-5">2. Which Tamil film won the National Film Award for Best Feature Film in Tamil in 2019?</p>
                <div class="row">
@@ -111,7 +111,7 @@
 
          </div>
           <!-- Question3 -->
-          <div class="row mt-3">
+          <div class="row mt-3" id="q3">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">3.  In the movie "Kabali," Rajinikanth plays the role of a</p>
                  <div class="row">
@@ -151,7 +151,7 @@
            </div>
 
              <!-- Question4 -->
-          <div class="row mt-3">
+          <div class="row mt-3" id="q4">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">4.Who directed the critically acclaimed film "Peranbu" starring Mammootty?</p>
                  <div class="row">
@@ -191,7 +191,7 @@
            </div>
 
             <!-- Question5-->
-           <div class="row mt-3">
+           <div class="row mt-3" id="q5">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">5. Which film marked the directorial debut of actor Karthik Subbaraj?</p>
                  <div class="row">
@@ -231,7 +231,7 @@
            </div>
 
           <!-- Question6-->
-          <div class="row mt-3">
+          <div class="row mt-3" id="q6">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">6.The film "Indian" (1996) features Kamal Haasan in a dual role. What are the names of the characters he portrayed?</p>
                  <div class="row">
@@ -271,7 +271,7 @@
            </div>
 
             <!-- Question7-->
-          <div class="row mt-3">
+          <div class="row mt-3" id="q7">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">7.Which actress played the female lead opposite Dhanush in the movie "Aadukalam"?</p>
                  <div class="row">
@@ -311,7 +311,7 @@
            </div>
 
              <!-- Question8-->
-          <div class="row mt-3">
+          <div class="row mt-3" id="q8">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">8.Which 2018 Tamil film is a sequel to the 2010 film "Enthiran" and features Rajinikanth in the lead role?</p>
                  <div class="row">
@@ -351,7 +351,7 @@
            </div>
 
             <!-- Question9-->
-           <div class="row mt-3">
+           <div class="row mt-3" id="q9">
             <div class="col-11 col-sm-8 ms-auto me-auto mt-3">
                 <p class="font-text fs-5">9.In the movie "Vikram Vedha," who played the role of the ruthless gangster Vedha?</p>
                  <div class="row">
@@ -391,7 +391,7 @@
            </div>
            
             <!-- Question10-->
-            <div class="row mt-3 pb-5">
+            <div class="row mt-3 pb-5" id="q10">
               <div class="col-11 col-sm-9 ms-auto me-auto mt-3">
                   <p class="font-text fs-5">10.Who directed the critically acclaimed film "96," starring Vijay Sethupathi and Trisha in the lead roles?</p>
                    <div class="row">
@@ -430,10 +430,31 @@
     
              </div>
              
-    <div class="pb-5">
-      <a href="./index.html" class="btn text-white fs-4 bg-success px-3">Exit</a>
-      <a href="./result.html"  class="btn text-white fs-4 btn_style2 px-3" onclick="moviequizSubmit()">Submit</a>
-    </div>     
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="pb-5 col-sm-4">
+        <a href="./index.html" class="btn text-white fs-4 bg-success px-3">Exit</a>
+        <a href="./result.html"  class="btn text-white fs-4 btn_style2 px-3" onclick="moviequizSubmit()">Submit</a>
+      </div>
+      <!-- questions -->
+      <div class="col-sm-4 ms-4 ms-lg-0">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Questions</a></li>
+            <li class="page-item"><a class="page-link" href="#q1">1</a></li>
+            <li class="page-item"><a class="page-link" href="#q2">2</a></li>
+            <li class="page-item"><a class="page-link" href="#q3">3</a></li>
+            <li class="page-item"><a class="page-link" href="#q4">4</a></li>
+            <li class="page-item"><a class="page-link" href="#q5">5</a></li>
+            <li class="page-item"><a class="page-link" href="#q6">6</a></li>
+            <li class="page-item"><a class="page-link" href="#q7">7</a></li>
+            <li class="page-item"><a class="page-link" href="#q8">8</a></li>
+            <li class="page-item"><a class="page-link" href="#q9">9</a></li>
+            <li class="page-item"><a class="page-link" href="#q10">10</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
      </div>
      
     </section>
