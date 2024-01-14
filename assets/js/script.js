@@ -35,7 +35,22 @@ localStorage.setItem('musicquiz',count1);
 }
 
 
-
+//sports quiz
+function sportquizSubmit(){
+    let moviequizz=['Movie_q1','Movie_q2','Movie_q3','Movie_q4','Movie_q5','Movie_q6','Movie_q7','Movie_q8','Movie_q9','Movie_q10']
+    let answers=['rohitsharma','england','rohitsharma','jaspritbumrah','viratkohli','newzealand','mithaliraj','prithvishaw','ravichandranashwin','msdhoni'];
+    let count=0;
+for (let i = 0; i < moviequizz.length; i++) {
+    // console.log(moviequizz[i],answers[i]);
+    let yes= movieSelectedValue(moviequizz[i],answers[i]);
+    // console.log(yes);
+    if(yes){
+        count++;
+    }    
+}
+let count1=count+'';
+localStorage.setItem('sportquiz',count1);
+}
 
 
 
@@ -70,4 +85,7 @@ function moviescore(){
   
 function musicscore(){
     document.getElementById('score').innerHTML=`${localStorage.getItem('musicquiz')}/10`;
+}
+function sportscore(){
+    document.getElementById('score').innerHTML=`${localStorage.getItem('sportquiz')}/10`;
 }
